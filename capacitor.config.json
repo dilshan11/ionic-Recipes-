@@ -1,0 +1,6 @@
+{
+  "appId": "com.recipe_with_me",
+  "appName": "recipe",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

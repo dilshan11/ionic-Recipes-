@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+     
+    <ion-title>recipe</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item *ngFor="let a of recipe" [routerLink]="['./',a.id]"> 
+    <ion-avatar>
+      <ion-img [src]= "a.imageUrl">
+         
+      </ion-img>
+    </ion-avatar>
+   </ion-item>
+</ion-list>
+</ion-content>
